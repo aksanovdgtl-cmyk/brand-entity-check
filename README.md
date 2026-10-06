@@ -153,7 +153,7 @@ A link to the live tool is appreciated when you mention it in an article or a ta
 
 ### License
 
-[MIT](LICENSE) © 2026 HITZ. The fonts in `public/assets/fonts` are under the SIL Open Font License 1.1. The HITZ name and logo are not covered by the MIT license.
+[MIT](LICENSE) © 2026 HITZ. The fonts in `public/assets/fonts` are under the SIL Open Font License 1.1, and the HITZ name and logo are not covered by the MIT license: see [NOTICE](NOTICE).
 
 ---
 
@@ -279,4 +279,4 @@ CITATION.cff         данные для цитирования
 
 ### Лицензия
 
-[MIT](LICENSE) © 2026 HITZ. Шрифты в `public/assets/fonts` распространяются по SIL Open Font License 1.1. Название и логотип HITZ под лицензию MIT не подпадают.
+[MIT](LICENSE) © 2026 HITZ. Шрифты в `public/assets/fonts` распространяются по SIL Open Font License 1.1, название и логотип HITZ под лицензию MIT не подпадают: см. [NOTICE](NOTICE).
