@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite HITZ and the original online tool."
+type: software
+title: "Brand Entity Check (Проверка сущности бренда)"
+version: "1.0.0"
+date-released: "2026-10-06"
+authors:
+  - name: "HITZ"
+    website: "https://hitz.agency"
+  - family-names: "Aksanov"
+    given-names: "Marat"
+    website: "https://aksanov.digital"
+url: "https://hitz.agency/tools/brand-entity"
+repository-code: "https://github.com/aksanovdgtl-cmyk/brand-entity-check"
+license: MIT
+abstract: "Checks how consistently a brand is represented as an entity: 18 signals of the home page, Organization markup, sameAs profiles and contacts, plus a Wikidata lookup."
+keywords:
+  - "brand entity"
+  - "entity SEO"
+  - "Knowledge Graph"
+  - "sameAs"
+  - "Wikidata"
+  - "Organization schema"

@@ -1,0 +1,52 @@
+{
+  "name": "brand-entity-check",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Brand entity checker: 18 home page signals (name, Organization schema, sameAs, contacts) plus Wikidata lookup. Web UI + Cloudflare Worker API. By HITZ, GEO agency.",
+  "author": {
+    "name": "HITZ",
+    "url": "https://hitz.agency"
+  },
+  "contributors": [
+    {
+      "name": "Marat Aksanov",
+      "url": "https://aksanov.digital"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://hitz.agency/tools/brand-entity",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aksanovdgtl-cmyk/brand-entity-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aksanovdgtl-cmyk/brand-entity-check/issues"
+  },
+  "keywords": [
+    "entity-seo",
+    "knowledge-graph",
+    "wikidata",
+    "schema-org",
+    "sameas",
+    "generative-engine-optimization",
+    "geo",
+    "seo-tools",
+    "cloudflare-workers",
+    "typescript"
+  ],
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "check": "tsc --noEmit",
+    "test": "node --test \"test/*.test.*\""
+  },
+  "devDependencies": {
+    "miniflare": "4.20260730.0",
+    "typescript": "6.0.3",
+    "wrangler": "4.147.0"
+  }
+}

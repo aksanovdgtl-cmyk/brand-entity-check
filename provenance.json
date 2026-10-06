@@ -1,0 +1,54 @@
+{
+  "publisher": "HITZ",
+  "publisher_url": "https://hitz.agency",
+  "captured_on": "2026-10-06",
+  "original_urls": {
+    "ru": "https://hitz.agency/tools/brand-entity",
+    "en": "https://hitz.agency/en/tools/brand-entity"
+  },
+  "catalog_url": "https://hitz.agency/tools",
+  "sources": {
+    "page_ru": [
+      {
+        "file": "src/components/tools/brand-entity/Tool.astro",
+        "sha256": "b845d82a9eae4ab6d93ba479a15cb245cf747556b1bb4cce625b0d15d1dde91a"
+      }
+    ],
+    "page_en": [
+      {
+        "file": "src/components/tools/brand-entity/ToolEn.astro",
+        "sha256": "8f1c7b667576ba5664d21779e0f3ad65a937c1ee9641139e45fa1dd76dc8dc0f"
+      }
+    ],
+    "server": [
+      {
+        "file": "src/server/tools/net.ts",
+        "sha256": "807c5e6f27183914275c7f23359b36d7ead488258ec53f7023ac3567b29e3e7f",
+        "copied_to": "src/core/net.ts"
+      },
+      {
+        "file": "src/server/tools/html.ts",
+        "sha256": "36ea277873120319f07cb6f0ca97616889c2c4e65d972fe13a741cd33380b309",
+        "copied_to": "src/core/html.ts"
+      },
+      {
+        "file": "src/server/tools/brand.ts",
+        "sha256": "d3884ff46dcc82dd93d12406e20dc92e4112538e52b3b4ea0284af340338a971",
+        "copied_to": "src/core/brand.ts"
+      },
+      {
+        "file": "src/server/tools/messages.ts",
+        "sha256": "e5a301ca5f92f5c3561b723733e90acf495e37b673a0bb8ebf9b3f8c3aef4ee7",
+        "copied_to": "src/core/messages.ts"
+      }
+    ]
+  },
+  "modifications": [
+    "Extracted the tool sections of the RU and EN pages; site header, footer, lead form, analytics and JSON-LD excluded",
+    "Moved inline styles to public/assets/tool.css and inline scripts to public/assets/js without code changes",
+    "Converted site-relative links to absolute https://hitz.agency URLs",
+    "Added a minimal header and footer with links to the online version and the source code",
+    "Server checks copied from the hitz.agency tools API without logic changes; import paths use .ts extensions; Origin allowlist reduced to same-origin",
+    "Added README, citation, license, tests and Cloudflare Workers configuration"
+  ]
+}
